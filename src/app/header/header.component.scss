@@ -1,12 +1,14 @@
 @import '../../scss/variables';
 nav{
-    .bg-light{
-        background-color: $light-color !important;
-    }
-    .nav-item a{
-        font-size: 18px;
-        color: $text-color;
-        font-weight: 500;
+   background-color: $bg-color !important;
+    .nav-item
+      {
+            margin: 0 12px;
+        a{
+            font-size: 18px;
+            color: $text-color;
+            font-weight: 500;
+        }
     }
     .search-control{
         width: 100%;
@@ -14,9 +16,8 @@ nav{
         font-size: 18px;
         border-radius: 5px;
         border: none;
-        // padding-right: 1.5rem;
         padding-left: .7rem;
-        background-color: $bg-color;
+        background-color: rgba(222,222,222,.5);
         &:focus{
             outline: none;
         }
@@ -26,4 +27,6 @@ nav{
         top: 16px;
         right: 14px;
     }
+    border-bottom:1px solid $primary-color ;
+    margin-bottom: 5px;
 }
