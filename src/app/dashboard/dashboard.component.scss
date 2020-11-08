@@ -1,0 +1,39 @@
+@import '../../scss/variables';
+.card{
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+    background-color:$light-color;
+    .card-body{
+        margin-bottom: 12px;
+        .card-text{
+            font-size: 16px;
+            color: $primary-color;
+            font-family: $primary-font;
+            text-transform: uppercase;
+    
+        }
+        .card-heading{
+            font-size: 32px;
+            color: $text-color;
+            font-family: $primary-font;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+    }
+    .card-footer{
+      
+        border-radius: 12px !important;
+        background-color: $light-color !important;
+        .card-desc{
+            font-size: 14px;
+            color: $primary-color;
+            font-family: $primary-font;
+            text-transform: capitalize;
+        }
+        
+    }
+    .card-footer:last-child {
+        border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+    }
+}
