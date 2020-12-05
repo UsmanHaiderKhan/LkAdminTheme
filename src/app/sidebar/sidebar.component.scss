@@ -6,7 +6,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: $text-color;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 18px;
@@ -26,13 +26,13 @@
   }
   
   .sidenav .closebtn {
-    display: none;
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    top: -11px;
+    right: -5px;
+    font-size: 22px;
+    margin-left: 0px;
   }
+ 
   .bottom-line{
     border-bottom: 1px solid $light-color;
   }
@@ -47,7 +47,10 @@
       top: -2px;
       right: 0px;
       font-size: 26px;
-      display: block !important;
     }
   }
   
+
+
+
+
